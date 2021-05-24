@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> royal garden hotel </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <P id="logo" class="headline"> Royal garden hotel <img src="logo.jpg" height="200px" width="200px" style="vertical-align:middle"> </P>
+    <!--form for guest-->
+
+
+    <h1 class="headline1"> Guest informations </h1>
+    <form action="" method="" class="headline2">
+        <lable for="f1"> first name </lable>
+        <input id="f1" type="text" name="first name" size="15" maxlength="30" placeholder="your name" required />
+
+        <lable for="f2"> password </lable>
+        <input id="f2" type="password" name="first name" required />
+        <br>
+        <lable for="f3"> Male </lable>
+        <input id="f3" type="radio" name="gender" value="M" checked />
+
+        <lable for="f4"> Female </lable>
+        <input id="f4" type="radio" name="gender" value="F" />
+        <br>
+        <label for="f5">Birthday </label>
+        <input type="text" name="year" placeholder="Year" required />
+        <select id="f5" name="monthes">
+        	 	<option value="0" selected disabled > month </option>
+        	 	<option value="1" > January  </option>
+        	 	<option value="2" > February </option>
+        	 	<option value="3" > March </option>
+        	 	<option value="4" > April </option>
+        	 	<option value="5" > May </option>
+        	 	<option value="6" > june </option>
+        	 	<option value="7" > july </option>
+        	 	<option value="8" > August </option>
+        	 	<option value="9" > September </option>
+        	 	<option value="10" > October </option>
+        	 	<option value="11" > November </option>
+        	 	<option value="12" > December </option>
+            </select>
+        <br>
+       
+    </form>
+    <h1 class="headline3"> booking informations </h1>
+
+    <form action="" method="" class="headline4">
+        <label for="f7">Check in</label>
+        <input id="f7" type="text" name="indate" placeholder="26/5/2021" required />
+        <label for="f7">Check out</label>
+        <input id="f7" type="text" name="outdate" placeholder="29/5/2021" required />
+        <br>
+        <label for="f9">Room members</label>
+        <select id="f9" name="room members">
+        	 	<option value="s" > single  </option>
+        	 	<option value="D" > Double </option>
+      </select>
+        <div class="headline6">
+
+
+
+            <p> The number of rooms :
+                <lable for="f3"> 1 room </lable>
+                <input id="f3" type="radio" name="gender" value="M" checked />
+
+                <lable for="f4"> 2 rooms </lable>
+                <input id="f4" type="radio" name="gender" value="F" />
+            </p>
+        </div>
+        <lable for="f6"> i agree with form conditions </lable>
+        <input id="f6" type="checkbox" name="agreement" value="agree" checked />
+        <br>
+
+        <button type="submit">submit </button>
+        <button type="reset">reset  </button>
+    </form>
+    <p class="headline7">
+        <h2 class="headline77">About us</h2>
+        <h3 class="headline88">At royal garden hotel, we believe in recognizing a familiar face, welcoming a new one and treating everyone we meet the way we would want to be treated ourselves. <br> Whether you work with us, stay with us, live with us or discover with us, we
+            believe our purpose is to create impressions that will stay with you for a lifetime.<br> It comes from our belief that life is richer when we truly connect to the people and the world around us.</h3>
+    </p class="headline8">
+
+    <h2 class="headline9"> location
+        <a href="https://www.google.com/maps/place/El-Gaish,+Tanta+Qism+2,+Tanta,+Gharbia+Governorate,+Egypt/@30.8048179,30.9934566,17z/data=!3m1!4b1!4m5!3m4!1s0x14f7b593e2754f1b:0x7055a0ba776f1e0a!8m2!3d30.8048179!4d30.9956453">
+            <h4>royal hotel, El-Gaish, Tanta Qism 2, Tanta, Gharbia Governorate, Egypt</h4>
+        </a>
+    </h2>
+
+    <a href="https://www.facebook.com/RoyalGreenHotelPyinOoLwin">
+        <h2 class="headline10">Our facebook Page</h2>
+    </a>
+</body>
+
+
+
+
+
+<!--JS CODE OF SCROLL REVEAL SITE API-->
+
+<script>
+    ScrollReveal().reveal('.headline');
+    ScrollReveal().reveal('.headline1');
+    ScrollReveal().reveal('.headline2');
+    ScrollReveal().reveal('.headline3');
+    ScrollReveal().reveal('.headline4');
+    ScrollReveal().reveal('.headline5');
+    ScrollReveal().reveal('.headline6');
+    ScrollReveal().reveal('.headline7');
+    ScrollReveal().reveal('.headline8');
+    ScrollReveal().reveal('.headline9');
+    ScrollReveal().reveal('.headline10');
+    ScrollReveal().reveal('.headline77');
+    ScrollReveal().reveal('.headline88');
+</script>
+
+
+</html>
